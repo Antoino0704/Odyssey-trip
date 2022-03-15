@@ -1,0 +1,1 @@
+open html folder and double click on index.html
