@@ -3,7 +3,11 @@
 <head>
     <meta charset='utf-8'>
     <title>Odyssey-trip</title>
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     <link rel="stylesheet" href="css/main.css"/>
+    <script src="javascript/concact.js"></script>
     <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
@@ -28,13 +32,28 @@
                         contact us
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">number: 3246274463</a></li>
-                        <li><a class="dropdown-item" href="#">support email: OdysseyTripAid@OdysseyTrip.com</a></li>
+                        <li><button class="dropdown-item" id="buttonNumber">number: 3246274463</button></li>
+                        <li><button class="dropdown-item" id="buttonEmail">support email: OdysseyTripAid@OdysseyTrip.com</button></li>
                     </ul>
-                </li>
+              </li>
             </ul>
         </div>
       </nav>
+      
+      <button type="button" class="btn btn-success" style="position: absolute; left: 50%; top: 80px;"><a style="color: white; text-decoration: none;" href="#">view offert</a></button>
+      
+      <!--toasts-->
+      <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+            <strong class="me-auto" id="strongid"></strong>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body">
+            <strong id="strongid2"></strong>
+          </div>
+        </div>
+      </div>
 
       <!--images carousel-->
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
