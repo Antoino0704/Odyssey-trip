@@ -30,5 +30,5 @@ https://docs.google.com/presentation/d/1IGLvYCRKUPPkn9XN5GzfktgvVNXQalZVpx7YM5gF
 ## Screenwriter
 Giuseppe Città
 ```diff
- + tropicalIsland.html (texts)
- ```
++ tropicalIsland.html (texts)
+```
