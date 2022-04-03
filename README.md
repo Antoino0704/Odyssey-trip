@@ -11,11 +11,14 @@ https://docs.google.com/presentation/d/1IGLvYCRKUPPkn9XN5GzfktgvVNXQalZVpx7YM5gF
 
  ## Programmers:
  ### Antonino Buscarino:
+ index.html, paymentCompleted.html
  
- index.html, paymentCompleted.html, concact.js, paymentCompleted.js, main.css, paymentCompleted.css
+ concact.js, paymentCompleted.js
+  
+ main.css, paymentCompleted.css
  
  ### Emanuele Ferrara:
  choiceTravel.html
-
+ 
 ## Screenwriter
 Giuseppe Città
