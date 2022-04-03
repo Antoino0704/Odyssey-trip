@@ -14,8 +14,10 @@ https://docs.google.com/presentation/d/1IGLvYCRKUPPkn9XN5GzfktgvVNXQalZVpx7YM5gF
  ```diff
 + index.html
 + paymentCompleted.html
++ tropicalIsland.html
 + concact.js
 + paymentCompleted.js
++ validator.js
 + main.css
 + paymentCompleted.css
 ```
@@ -23,6 +25,7 @@ https://docs.google.com/presentation/d/1IGLvYCRKUPPkn9XN5GzfktgvVNXQalZVpx7YM5gF
  ### Emanuele Ferrara:
   ```diff
  + choiceTravel.html
+ + tropicalIsland.html
  ```
 ## Screenwriter
 Giuseppe Città
