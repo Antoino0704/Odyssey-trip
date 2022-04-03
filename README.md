@@ -13,7 +13,7 @@ https://docs.google.com/presentation/d/1IGLvYCRKUPPkn9XN5GzfktgvVNXQalZVpx7YM5gF
  ### Antonino Buscarino:
  ```diff
 + index.html
-+  paymentCompleted.html
++ paymentCompleted.html
 + concact.js
 + paymentCompleted.js
 + main.css
