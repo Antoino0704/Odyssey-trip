@@ -10,7 +10,8 @@ https://docs.google.com/presentation/d/1IGLvYCRKUPPkn9XN5GzfktgvVNXQalZVpx7YM5gF
 # Authors
 
  ### Programmers:
- Antonino Buscarino, Emanuele Ferrara
+ Antonino Buscarino -> index.html, paymentCompleted.html, all javascript file and css file
+ Emanuele Ferrara -> choiceTravel.html
 
 ### Screenwriter
 Giuseppe Città
