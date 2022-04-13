@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Odyssey-trip</title>
+    <link rel="icon" href="https://media.discordapp.net/attachments/685121160677163067/953240462121136148/c3a9391e25e1db9e2cac2ae7cccb9d155c0f8d1av2_hq.jpg?width=559&height=559"/>
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="css/main.css"/>
+    <script src="javascript/concact.js"></script>
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--icon-->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="https://media.discordapp.net/attachments/685121160677163067/953240462121136148/c3a9391e25e1db9e2cac2ae7cccb9d155c0f8d1av2_hq.jpg?width=559&height=559" alt="" width="50" height="40" class="d-inline-block align-text-top">
+            Odyssey-trip
+          </a>
+        </div>
+      </nav>
+
+      <!--navbar-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        contact us
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><button class="dropdown-item" id="buttonNumber">number: 3246274463</button></li>
+                        <li><button class="dropdown-item" id="buttonEmail">support email: OdysseyTripAid@OdysseyTrip.com</button></li>
+                    </ul>
+              </li>
+            </ul>
+        </div>
+      </nav>
+      
+      <button type="button" class="btn btn-success" style="position: absolute; left: 50%; top: 80px;"><a style="color: white; text-decoration: none;" href="travelChoice.html">view offert</a></button>
+      
+      <!--toasts-->
+      <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+            <strong class="me-auto" id="strongid"></strong>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body">
+            <strong id="strongid2"></strong>
+          </div>
+        </div>
+      </div>
+
+      <!--images carousel-->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-image: url(https://techcrunch.com/wp-content/uploads/2021/12/FF8DDkpWYAAJc3Y.jpeg);">
+           <p style="color: red; font-size: 82px; font-family: Castellar;">Travel with us</p>
+          </div>
+          <div class="carousel-item" style="background-image: url(http://www.ca-sette.it/download/13603a7_1.jpg);">
+            <p style="color: red; font-size: 82px; font-family: Castellar;">Enjoy an exciting family trip</p>>
+          </div>
+          <div class="carousel-item" style="background-image: url(https://media.discordapp.net/attachments/685121160677163067/953255283768041582/60505b40-c57b-4e31-8aa0-33d8b4e5ff13-istock-906410582.jpg?width=838&height=559);">
+            <p style="color: red; font-size: 82px; font-family: Castellar;">Explore new worlds</p>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</body>
+</html>
